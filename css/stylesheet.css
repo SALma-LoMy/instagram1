@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fafafa;
+}
+
+.nav{
+    position: absolute;
+    width: 100%;
+    height: 59px;
+    top: 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.wrappor{
+    position: relative;
+    width: 975px;
+    height: 54px;
+    top: 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 0 0 18px;
+}
+.icons{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo,.home,.explore,.create,.compass,.heart,.profil-img{
+    cursor: pointer;
+
+}
+
+/* dropdown*/
+.profil-img > .drop-down{
+    position: absolute;
+    top: 53px;
+    width: 201px;
+    height: 200px;
+    box-shadow: 0 0 5px 1px rgb( 0 0 0 / 10%);
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    z-index: 1;
+    right: 1%;
+    visibility: hidden;
+}
+.profil-img:hover > .drop-down{
+    visibility: visible;
+}
+.drop-down ul{
+    display: flex;
+    flex-direction: column;
+}
+.drop-down ul li{
+    padding: 8px 16px;
+    list-style: none;
+}
+.drop-down ul li:hover{
+    background-color: #fafafa;
+}
+.drop-down ul li a{
+    text-decoration: none;
+    color: #2b2b2b;
+}
+.section1 {
+    display: flex;
+    z-index: 4;
+    background-color: #ffffff;
+    width: 100%;
+    height: 525px;
+}
+.big{
+    background-color: #ffffff;
+    width: 100%;
+    height: 350px;
+}
+.outer{
+    
+    position: relative;
+    width: 130px; 
+    height: 130px;
+     border-radius: 50%;
+     margin-top: 115px; 
+     margin-left: 235px;
+}
+.inner{
+    background: #fcb045;
+    background: linear-gradient( to bottom , #fcb045, red, #833ab4);
+    padding: 2px;
+    width: 130px; 
+    height: 130px;
+     border-radius: 70%;
+     margin-top: 115px; 
+     margin-left: 17px;
+}
+.inner img{
+    object-fit: cover;
+    border: 3px solid white;
+}
+.prof-imge{
+display: flex;
+}
+.big p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{z-index: 5;
+    margin-top: -77px;
+    margin-left: 420px;
+}
+.button button{
+    border: 1px;
+    padding: 5px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.button button:hover{
+    color: #5f5e5e;
+}
+.as{
+    z-index: 3;
+    width: 370px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 500px;
+    justify-content: space-between;
+}
+.as a{
+    color: black;
+    width: 300px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.as a:hover{
+    color: #5f5e5e;
+}
+.caption{
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+    margin-top: 10px;
+}
+.caption p{
+    font-size: small;
+    margin-left: 500px;
+}
+.stories{
+    display: flex;
+    width: 400px;
+    height: 120px;
+}
+
+.stories img{
+    width: 100px; 
+    height: 80px;
+     border-radius: 70%;
+    margin-top: 35px;
+    margin-left: 130px;
+    object-fit: cover;
+    border: 2px solid whitesmoke;
+    background-size: cover;
+    background-position: center;
+}
+.stories p{
+padding-left: 160px;
+color: black;
+font-size: small;
+}
+
+
+.section2{
+    background-color: #ffffff;
+    width: 100%;
+    height: 3750px;
+    justify-content: center;
+    z-index: 5;
+}
+.big2{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+.big2 ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.big2 ul li{
+    list-style: none;
+    flex-direction: row;
+    justify-content: center;
+}
+.section2 .big2 .tab-content img:hover{
+    background-color: #5a5a5a;
+}
+.section2 .big2 img{
+    border-radius: 2px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 2px;
+}
+
+.section2 .big2 video{
+    border-radius: 2px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 5px;
+}
+.section2 .big2 video:hover{
+    background-color: #5f5e5e;
+}
+.section2 .big2 img:hover{
+    background-color: #5a5a5a;
+}
+footer{
+    width: 100%;
+    height: 60px;
+}
